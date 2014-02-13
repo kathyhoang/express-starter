@@ -44,20 +44,6 @@ $(function() {
     // FIXME
   });
 
-   $('#four').click(function() {
-    var outputText = $('#output').text() + '4';
-    // FIXME
-    $('#output').text(outputText);
-    // FIXME
-  });
-
-   $('#four').click(function() {
-    var outputText = $('#output').text() + '4';
-    // FIXME
-    $('#output').text(outputText);
-    // FIXME
-  });
-
    $('#five').click(function() {
     var outputText = $('#output').text() + '5';
     // FIXME
@@ -86,7 +72,7 @@ $(function() {
     // FIXME
   });// WRITE CODE HERE for buttons 5-9
 
-$('#nine').click(function() {
+   $('#nine').click(function() {
     var outputText = $('#output').text() + '9';
     // FIXME
     $('#output').text(outputText);
