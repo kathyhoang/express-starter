@@ -142,13 +142,19 @@ $('#mod').click(function() {
     $('#output').text(newNum);
   });
 
- $('#equals').click(function() {
+  $('#equals').click(function() {
     var outputText = $('output').text();
     var outputNum = parseFloat(eval(outputText));
     var res = eval(string);
-   }
- $('#output').text(newNum);
-);
+    $('#output').text(newNum);
+  });
+
+  $('#dot').click(function() {
+    var outputText = $('#output').text();
+    if (notLastOp() && outputText.indexOf('.') === -1) {
+      $('#output').text(outputText + '.');
+    }
+  });
 
   $('#clear').click(function() {
     var outputText = $('#output').text().slice(0, -1);
