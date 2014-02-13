@@ -28,53 +28,67 @@ $(function() {
       outputText = '2';
     }
     
-    $('#output').text('haha');
+    $('#output').text(outputText);
   });
 
   $('#three').click(function() {
     var outputText = $('#output').text() + '3';
-    // FIXME
+    if (outputText === '03') {
+      outputText = '3';
+    }
     $('#output').text(outputText);
   });
 
   $('#four').click(function() {
     var outputText = $('#output').text() + '4';
-    // FIXME
+    if (outputText === '04') {
+      outputText = '4';
+    }
     $('#output').text(outputText);
     // FIXME
   });
 
    $('#five').click(function() {
     var outputText = $('#output').text() + '5';
-    // FIXME
+    if (outputText === '05') {
+      outputText = '5';
+    }
     $('#output').text(outputText);
     // FIXME
   });
 
    $('#six').click(function() {
     var outputText = $('#output').text() + '6';
-    // FIXME
+    if (outputText === '06') {
+      outputText = '6';
+    }
     $('#output').text(outputText);
     // FIXME
   });
 
    $('#seven').click(function() {
     var outputText = $('#output').text() + '7';
-    // FIXME
+    if (outputText === '07') {
+      outputText = '7';
+    }
     $('#output').text(outputText);
     // FIXME
   });
 
    $('#eight').click(function() {
     var outputText = $('#output').text() + '8';
-    // FIXME
+    if (outputText === '08') {
+      outputText = '8';
+    }
     $('#output').text(outputText);
     // FIXME
   });// WRITE CODE HERE for buttons 5-9
 
    $('#nine').click(function() {
     var outputText = $('#output').text() + '9';
-    // FIXME
+    if (outputText === '09') {
+      outputText = '9';
+    }
     $('#output').text(outputText);
     // FIXME
   });
