@@ -27,7 +27,7 @@ $(function() {
     if (outputText === '02') {
       outputText = '2';
     }
-    // FIXME
+    
     $('#output').text('haha');
   });
 
