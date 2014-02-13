@@ -1,3 +1,5 @@
+/*jslint browser: true*/
+/*global $, jQuery*/
 $(function() {
   var notLastOp = function() {
     var lastChar = $('#output').text().slice(-1);
@@ -36,11 +38,61 @@ $(function() {
   });
 
   $('#four').click(function() {
+    var outputText = $('#output').text() + '4';
+    // FIXME
+    $('#output').text(outputText);
     // FIXME
   });
 
-  // WRITE CODE HERE for buttons 5-9
+   $('#four').click(function() {
+    var outputText = $('#output').text() + '4';
+    // FIXME
+    $('#output').text(outputText);
+    // FIXME
+  });
 
+   $('#four').click(function() {
+    var outputText = $('#output').text() + '4';
+    // FIXME
+    $('#output').text(outputText);
+    // FIXME
+  });
+
+   $('#five').click(function() {
+    var outputText = $('#output').text() + '5';
+    // FIXME
+    $('#output').text(outputText);
+    // FIXME
+  });
+
+   $('#six').click(function() {
+    var outputText = $('#output').text() + '6';
+    // FIXME
+    $('#output').text(outputText);
+    // FIXME
+  });
+
+   $('#seven').click(function() {
+    var outputText = $('#output').text() + '7';
+    // FIXME
+    $('#output').text(outputText);
+    // FIXME
+  });
+
+   $('#eight').click(function() {
+    var outputText = $('#output').text() + '8';
+    // FIXME
+    $('#output').text(outputText);
+    // FIXME
+  });// WRITE CODE HERE for buttons 5-9
+
+$('#nine').click(function() {
+    var outputText = $('#output').text() + '9';
+    // FIXME
+    $('#output').text(outputText);
+    // FIXME
+  });
+  
   $('#add').click(function() {
     if (notLastOp()) {
       var outputText = $('#output').text() + '+';
@@ -48,7 +100,33 @@ $(function() {
     }
   });
 
-  // WRITE CODE HERE for sub,mul,div,mod
+  $('#sub').click(function() {
+    if (notLastOp()) {
+      var outputText = $('#output').text() + '-';
+      $('#output').text(outputText);
+    }
+  });// WRITE CODE HERE for sub,mul,div,mod
+
+$('#mul').click(function() {
+    if (notLastOp()) {
+      var outputText = $('#output').text() + '*';
+      $('#output').text(outputText);
+    }
+  });
+
+$('#div').click(function() {
+    if (notLastOp()) {
+      var outputText = $('#output').text() + '/';
+      $('#output').text(outputText);
+    }
+  });
+
+$('#mod').click(function() {
+    if (notLastOp()) {
+      var outputText = $('#output').text() + '%';
+      $('#output').text(outputText);
+    }
+  });
 
   $('#sqrt').click(function() {
     var outputText = $('#output').text();
@@ -60,14 +138,14 @@ $(function() {
   $('#square').click(function() {
     var outputText = $('#output').text();
     var outputNum = parseFloat(eval(outputText));
-    // FIXME
-    var newNum = Math.sqrt(outputNum);
+    var newNum = Math.pow(outputNum, 2);
     $('#output').text(newNum);
   });
 
   $('#equals').click(function() {
-    // FIXME
-    var res = eval('4*10+7');
+    var outputText = $('output').text();
+    var outputNum = parseFloat(eval(outputText));
+    var res = eval('output');
     $('#output').text(res);
   });
 

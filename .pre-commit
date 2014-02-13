@@ -5,12 +5,12 @@
 files=$(git diff --cached --name-only --diff-filter=ACMR -- *.js **/*.js)
 pass=true
 
-function jslint() {
+/*function jslint() {
   node_modules/jslint/bin/./jslint.js \
     --color --ass --bitwise --browser --closure --continue --debug --devel \
     --eqeq --nomen --sloppy --todo --unparam --vars --white \
     $1
-}
+}*/
 
 
 if [[ "$files" != "" ]]; then
