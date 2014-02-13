@@ -54,7 +54,7 @@ $(function() {
       outputText = '5';
     }
     $('#output').text(outputText);
-    // FIXME
+    
   });
 
    $('#six').click(function() {
@@ -63,7 +63,7 @@ $(function() {
       outputText = '6';
     }
     $('#output').text(outputText);
-    // FIXME
+
   });
 
    $('#seven').click(function() {
