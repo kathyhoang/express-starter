@@ -146,7 +146,7 @@ $('#mod').click(function() {
     var outputText = $('output').text();
     var outputNum = parseFloat(eval(outputText));
     var newNum = eval(outputNum);
-    $('#output').text(outputNum);
+    $('#output').text(newNum);
   });
 
   $('#dot').click(function() {
