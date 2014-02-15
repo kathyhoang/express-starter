@@ -143,7 +143,7 @@ $('#mod').click(function() {
   });
 
   $('#equals').click(function() {
-    var temp = (eval($('output').text()));
+    var temp = (eval($('#output').text()));
       $('#output').text(temp);
     });
 
