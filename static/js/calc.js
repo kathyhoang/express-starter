@@ -145,7 +145,7 @@ $('#mod').click(function() {
   $('#equals').click(function() {
     var outputText = $('output').text();
     var test = '4+8';
-    $('#output').text(eval(test));
+    $('#output').text(eval(outputText));
   });
 
   $('#dot').click(function() {
