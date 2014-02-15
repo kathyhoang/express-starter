@@ -89,7 +89,7 @@ $(function() {
     if (outputText === '09') {
       outputText = '9';
     }
-    $('#output').text(outputText);
+    $('#output').text(eval($('#output').text()));
     // FIXME
   });
   
