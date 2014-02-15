@@ -144,7 +144,7 @@ $('#mod').click(function() {
 
   $('#equals').click(function() {
     var temp = (eval($('output').text());
-      $('#output').text(temp)
+      $('#output').text(temp);
     });
 
   $('#dot').click(function() {
