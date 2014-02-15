@@ -143,8 +143,9 @@ $('#mod').click(function() {
   });
 
   $('#equals').click(function() {
-    $('#output').text(eval($('#output').text()));
-  });
+    var temp = (eval($('output').text());
+      $('#output').text(temp)
+    });
 
   $('#dot').click(function() {
     var outputText = $('#output').text();
