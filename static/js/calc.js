@@ -143,8 +143,6 @@ $('#mod').click(function() {
   });
 
   $('#equals').click(function() {
-    var outputText = $('output').text()+'';
-    var test = eval('4+4')
     $('#output').text(eval($('#output').text()));
   });
 
