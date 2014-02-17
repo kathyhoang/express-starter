@@ -137,7 +137,7 @@ $('#mod').click(function() {
 
  $('#power').click(function() {
     if (notLastOp()) {
-      var outputText = $('#output').text() + (pow('#output'));
+      var outputText = $('#output').text() + 'x^y';
       $('#output').text(outputText);
     }
   });
