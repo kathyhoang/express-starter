@@ -135,11 +135,11 @@ $('#mod').click(function() {
     $('#output').text(newNum);
   });
 
-  $('#square').click(function() {
-    var outputText = $('#output').text();
-    var outputNum = parseFloat(eval(outputText));
-    var newNum = Math.pow(outputNum, 2);
-    $('#output').text(newNum);
+ $('#power').click(function() {
+    if (notLastOp()) {
+      var outputText = $('#output').text() + (pow('#output'));
+      $('#output').text(outputText);
+    }
   });
 
   $('#equals').click(function() {
