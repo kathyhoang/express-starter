@@ -138,7 +138,7 @@ $('#mod').click(function() {
  $('#square').click(function() {
     var outputText = $('#output').text();
     var outputNum = parseFloat(eval(outputText));
-    var newNum = Math.sqrt(outputNum, 2); 
+    var newNum = Math.pow(outputNum, 2); 
     $('#output').text(newNum);
   });
 
