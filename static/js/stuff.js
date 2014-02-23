@@ -2,7 +2,7 @@ alert('yo'); // edit me!
 
 // Problem 1 (Say Hello!) ---------------------------------------------------
 $('#say_hello').click(function() {
-	alert('Hello world!')
+	alert('Hello world!');
 });
 
 
