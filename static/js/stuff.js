@@ -16,10 +16,12 @@ $('#reappear').click(function() {
 });
 
 
-$('#pink').click(function)() { }
+$('#pink').click(function() {
 	$("#tickled_text").css('color', 'pink');
 });
 
 
-// Problem 4 (Greet Me) -----------------------------------------------------
+$('#greet').click(function() {
+	alert('Hello ' + $('#my_name').val());
+	});// Problem 4 (Greet Me) -----------------------------------------------------
 // WRITE CODE HERE
